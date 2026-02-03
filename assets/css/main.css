@@ -1,0 +1,45 @@
+:root {
+    --primary: #2d5bff;
+    --background: #f6f7fb;
+    --text: #1f2933;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+.site-header {
+    background: white;
+    padding: 1.2rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+}
+
+.hero {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
